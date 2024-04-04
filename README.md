@@ -33,6 +33,7 @@ We need to create an AWS user for S3 uploads and sending SES emails.
 - Do not check `Provide user access to the AWS Management Console`
 - On the next screen add the user to the group `WordPressSites`
 - Once the user is created, click on the user and go to the Security Credentials Tab
+- Go to Access Key and click "Create Access Key"
 - Click the `Application running on an AWS compute service` and then check the Confirmation box
 - Skip the tag screen and click Create
 - You will see the `Retrieve access keys`. Click the Download CSV button. Keep these values somewhere safe. We will use them in the next steps as well.
